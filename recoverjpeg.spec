@@ -5,9 +5,9 @@ Version:	1.0
 Release:	0.1
 License:	GPL
 Group:		Applications/File
-Source0:	http://www.rfc1149.net/download/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://www.rfc1149.net/download/recoverjpeg/%{name}-%{version}.tar.gz
 # Source0-md5:	394b20c88f2785fd2d008b7006261ef8
-URL:		http://www.rfc1149.net/devel/recoverjpeg
+URL:		http://www.rfc1149.net/devel/recoverjpeg/
 Requires:	ImageMagick
 Requires:	libexif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
