@@ -9,7 +9,7 @@ Source0:	http://www.rfc1149.net/download/recoverjpeg/%{name}-%{version}.tar.gz
 # Source0-md5:	394b20c88f2785fd2d008b7006261ef8
 URL:		http://www.rfc1149.net/devel/recoverjpeg/
 Requires:	ImageMagick
-Requires:	libexif
+Requires:	exif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
