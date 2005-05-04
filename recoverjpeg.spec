@@ -1,12 +1,12 @@
 Summary:	JPEG files recover 
 Summary(pl):	Aplikacja do odzyskiwania plików JPEG
 Name:		recoverjpeg
-Version:	1.0
+Version:	1.1.1
 Release:	0.1
 License:	GPL
 Group:		Applications/File
 Source0:	http://www.rfc1149.net/download/recoverjpeg/%{name}-%{version}.tar.gz
-# Source0-md5:	394b20c88f2785fd2d008b7006261ef8
+# Source0-md5:	ff407f7f1bc900bfb043c7c72cc69173
 URL:		http://www.rfc1149.net/devel/recoverjpeg/
 Requires:	ImageMagick
 Requires:	exif
