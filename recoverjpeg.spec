@@ -1,5 +1,5 @@
 Summary:	JPEG files recover 
-Summary(pl.UTF-8):   Aplikacja do odzyskiwania plików JPEG
+Summary(pl.UTF-8):	Aplikacja do odzyskiwania plików JPEG
 Name:		recoverjpeg
 Version:	1.1.1
 Release:	0.1
