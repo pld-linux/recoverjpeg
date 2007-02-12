@@ -1,5 +1,5 @@
 Summary:	JPEG files recover 
-Summary(pl):	Aplikacja do odzyskiwania plików JPEG
+Summary(pl.UTF-8):   Aplikacja do odzyskiwania plikÃ³w JPEG
 Name:		recoverjpeg
 Version:	1.1.1
 Release:	0.1
@@ -17,10 +17,10 @@ recoverjpeg tries to recover JFIF (JPEG) pictures from a peripheral.
 This may be useful if a partition is mistakenly overwriten or if a
 device such as a digital camera memory card is bogus.
 
-%description -l pl
-recoverjpeg próbuje odzyskaæ z peryferia zdjêcia zapisane w formacie
-JFIF (JPEG). Mo¿e to byæ u¿yteczne w przypadku omy³kowego nadpisania
-partycji lub gdy no¶nik taki jak pamiêæ aparatu cyfrowego jest
+%description -l pl.UTF-8
+recoverjpeg prÃ³buje odzyskaÄ‡ z peryferia zdjÄ™cia zapisane w formacie
+JFIF (JPEG). MoÅ¼e to byÄ‡ uÅ¼yteczne w przypadku omyÅ‚kowego nadpisania
+partycji lub gdy noÅ›nik taki jak pamiÄ™Ä‡ aparatu cyfrowego jest
 uszkodzony.
 
 %prep
