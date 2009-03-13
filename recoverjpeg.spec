@@ -1,12 +1,12 @@
 Summary:	JPEG files recover 
 Summary(pl.UTF-8):	Aplikacja do odzyskiwania plików JPEG
 Name:		recoverjpeg
-Version:	1.1.2
-Release:	0.1
+Version:	1.1.4
+Release:	1
 License:	GPL
 Group:		Applications/File
 Source0:	http://www.rfc1149.net/download/recoverjpeg/%{name}-%{version}.tar.gz
-# Source0-md5:	3bb054f4dfba25a6291a39f81706052a
+# Source0-md5:	165d153e805432ecc824bc72a008b9ca
 URL:		http://www.rfc1149.net/devel/recoverjpeg/
 Requires:	ImageMagick
 Requires:	exif
@@ -18,10 +18,9 @@ This may be useful if a partition is mistakenly overwriten or if a
 device such as a digital camera memory card is bogus.
 
 %description -l pl.UTF-8
-recoverjpeg próbuje odzyskać z peryferia zdjęcia zapisane w formacie
-JFIF (JPEG). Może to być użyteczne w przypadku omyłkowego nadpisania
-partycji lub gdy nośnik taki jak pamięć aparatu cyfrowego jest
-uszkodzony.
+recoverjpeg próbuje odzyskać zdjęcia zapisane w formacie JFIF (JPEG).
+Może to być użyteczne w przypadku omyłkowego nadpisania partycji lub
+gdy nośnik taki jak pamięć aparatu cyfrowego jest uszkodzony.
 
 %prep
 %setup -q
@@ -42,5 +41,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man1/*
+%attr(755,root,root) %{_bindir}/recoverjpeg
+%attr(755,root,root) %{_bindir}/remove-duplicates
+%attr(755,root,root) %{_bindir}/sort-pictures
+%{_mandir}/man1/recoverjpeg.1*
+%{_mandir}/man1/sort-pictures.1*
